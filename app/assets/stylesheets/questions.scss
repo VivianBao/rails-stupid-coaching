@@ -1,3 +1,28 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.user {
+  background-color: rgb(255,255,225);
+  padding: 10px;
+  border-left: 8px solid rgb(160, 159, 159);
+  margin: 20px;
+}
+
+.coach {
+  padding: 10px;
+  border-left: 8px solid rgb(160, 159, 159);
+  margin: 20px;
+}
+
+.link {
+  padding: 10px 20px;
+}
