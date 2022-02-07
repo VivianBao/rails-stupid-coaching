@@ -1,13 +1,15 @@
 <!--The answer.html.erb will display the question you ask your coach as well as his answer-->
-<h1>Stupid Coaching</h1>
 <div class='container'>
+  <h1 class="title">Stupid Coaching</h1>
   <div class='user'>
     <p><%= @question %></p>
     <p><em>-You</em></p>
   </div>
-  <div class="coach">
-    <p><%= @answer %></p>
-    <p><em>-Your Coach</em></p>
+  <div class="coach-container">
+    <div class="coach">
+      <p><%= @answer %></p>
+      <p><em>-Your Coach</em></p>
+    </div>
   </div>
   <p class='link'><%= link_to "Ask a new question", ask_path %></p>
 </div>
