@@ -23,20 +23,65 @@ body {
   // background-color: #60d3f3;
   padding: 10px;
   border-left: 8px solid #60d3f3;
-  margin: 20px;
+  margin: 10px 45px;
 }
 
 .coach {
   padding: 10px;
   border-right: 8px solid rgb(160, 159, 159);
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: auto;
+  margin-right: 45px;
   max-width: 300px;
   text-align: right;
 }
-.signature{
-  text-align: right;
+
+.link-container {
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 20px;
 }
+
 .link {
-  padding: 10px 20px;
+  text-decoration: none;
+  color: #60d3f3;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #60d3f3;
+  font-size: 1.2em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+  width: 55%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 50%;
+  }
+
 }
