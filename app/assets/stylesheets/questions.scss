@@ -17,14 +17,44 @@ p {
   background-color: #303134;
   padding: 20px;
   width: 80%;
+  height: 425px;
 }
 
 .title{
   text-align: center;
 }
 
+// ask page
+.intro{
+  text-align: center;
+  width: 75%;
+  margin: 0 auto 30px auto;
+}
+
+.ask-form{
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+.form--input{
+ padding: 8px;
+ width: 200px;
+ border: none;
+ border-radius: 2px;
+}
+
+.form--button{
+  padding: 8px;
+  border: none;
+  background-color: #60d3f3;
+  color: white;
+  border-radius: 2px;
+  margin-left: 5px;
+  text-shadow: 0 0 1px rgb(168, 168, 168);
+}
+
+// answer page
 .user {
-  // background-color: #60d3f3;
   padding: 10px;
   border-left: 8px solid #60d3f3;
   margin: 10px 45px;
